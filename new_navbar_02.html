@@ -1,0 +1,126 @@
+<html>
+<head>
+<style>
+
+ /*dropdown*/
+ 
+
+ /*dropup*/
+ .text-block_401-500 {  
+    width: auto;
+    height: auto;
+    text-align: center;  
+    font-size: 4mm;
+  }
+
+  .dropup-content {
+    display: none;
+    position: absolute;
+    background-color: yellow;
+    min-width: auto;
+    font-size: 4mm;
+    padding-left: 2.5mm;
+    padding-right: 2.5mm;
+    z-index: 1;
+  }
+  
+  .dropup-content a {  
+    display: block;
+  }
+  /*hover*/
+  .dropup-content a:hover {background-color: yellowgreen;}
+  
+  .dropup:hover .dropup-content {display: block;}
+  
+  .dropup:hover .dropbtn {background-color: #3e8e41;}
+  
+/*grid container*/
+.grid-container {
+  display: grid;
+  row-gap: 50px;
+  grid-template-columns: auto auto auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: rgba(21, 224, 21, 0.8);
+  border: 1px solid rgba(122, 26, 212, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+</style>
+</head>
+
+
+    <body>
+        <div class="grid-container">
+        <div class="grid-item">
+            <div class="item" id="auto">	
+                <div class="text-block_901-1000">
+                    <div class="dropdown">
+                        <button class="dropbtn">Music<br> Playlist <br> 901 to 1000</button>
+                        <div class="dropdown-content">
+                            <a href="https://youtube.com/playlist?list=PLcY0ptRnz20zw9yH9VgsT39GH6odCFPzz&si"
+                                class="dropdown-item">
+                                <p style="size: 10px; color: blue;">901 to 925</p>
+                            </a>								
+                            <a href="https://youtube.com/playlist?list=PLcY0ptRnz20zw9yH9VgsT39GH6odCFPzz&si"
+                                class="dropdown-item">
+                                <p style="size: 10px; color: blue;">926 to 950</p>
+                            </a>
+                            <a href="https://youtube.com/playlist?list=PLcY0ptRnz20zw9yH9VgsT39GH6odCFPzz&si"
+                                class="dropdown-item">
+                                <p style="size: 10px; color: blue;">951 to 975</p>
+                            </a>								
+                            <a href="https://youtube.com/playlist?list=PLcY0ptRnz20zw9yH9VgsT39GH6odCFPzz&si"
+                                class="dropdown-item">
+                                <p style="size: 10px; color: blue;">976 to 1000</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>	
+            </div>
+
+        </div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>  
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        
+        <div class="grid-item">
+            <div class="item" id="auto">												
+                <div class="text-block_401-500">
+                    <div class="dropup">
+                        <button class="dropbtn">Music Video <br> Playlist <br> 401 to 500</button>
+                        <div class="dropup-content">
+                            <a href="https://youtube.com/playlist?list=PLcY0ptRnz20zw9yH9VgsT39GH6odCFPzz&si"
+                                class="dropup-item">
+                                <p style="size: 10px; color: blue;">Music playlist <br><br> 401 to 425</p>
+                            </a>								
+                            <a href="https://youtube.com/playlist?list=PLcY0ptRnz20zw9yH9VgsT39GH6odCFPzz&si"
+                                class="dropup-item">
+                                <p style="size: 10px; color: blue;">426 to 450</p>
+                            </a>
+                            <a href="https://youtube.com/playlist?list=PLcY0ptRnz20zw9yH9VgsT39GH6odCFPzz&si"
+                                class="dropup-item">
+                                <p style="size: 10px; color: blue;">451 to 475</p>
+                            </a>								
+                            <a href="https://youtube.com/playlist?list=PLcY0ptRnz20zw9yH9VgsT39GH6odCFPzz&si"
+                                class="dropup-item">
+                                <p style="size: 10px; color: blue;">476 to 500</p>
+                            </a>
+                        </div>	
+                    </div>
+                </div>
+            </div> 
+        </div>  
+
+        <div class="grid-item">7</div>
+        <div class="grid-item">8</div>
+        <div class="grid-item">9</div>  
+        <div class="grid-item">10</div>
+    </body>
+</html>

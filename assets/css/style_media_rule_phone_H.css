@@ -1,0 +1,313 @@
+  /*phone_H*/
+  @media screen and (max-width: 1000px) 
+  {
+    div.re-size {
+      background-color: blue;
+      margin: 1px;
+      padding: 4px;
+      }      
+      
+      .text-block_banner_01 {
+        position: relative;
+        font-family:Impact,;
+        top: -51vw;
+        left: 5vw;
+        color: rgb(0, 255, 229);
+        font-size: 4mm;
+      }
+    
+        .text-block_banner_02 {
+          position: relative;
+          font-family:Impact,;
+          top: -52.5vw;
+          left: 8vw;
+          color: rgb(0, 255, 229);
+          font-size: 5mm;
+        }    
+    
+          .text-block_banner_03_en {
+            position: relative;
+            font-family:Impact,;
+            top: -54vw;
+            left: 10vw;
+            color: rgb(0, 255, 229);
+            font-size: 6mm;
+          }  
+       
+            .text-block_select_language {
+              position: relative;
+              top: -65vw;
+              left: 60vw;                    
+              font-size: 5mm;  
+            }   
+  
+              .text-block_english_button {
+                position: relative;
+                top: -67vw;
+                left: 67vw;                   
+                font-size: 5mm;  
+              }
+  
+                .text-block_chinese_button {
+                  position: relative;
+                  top: -69vw;
+                  left: 69vw;                    
+                  font-size: 5mm;  
+                } 
+                      
+                  .text-block_goto_playlist {
+                    position: relative;
+                    top: -100vw;
+                    left: 70vw;                    
+                  }  
+                  
+                  .text-block_goto_message {
+                    position: relative;
+                    top: -55vw;
+                    left: 10vw;
+                  }
+                              
+                  /*-----------------------------------------------*/  
+                              /* Slideshow container */
+                              .slideshow-container-Text {
+                                width: auto;                              
+                                }
+                              
+                              /* Caption text */
+                              .text {                              
+                                font-size: 6mm;                 
+                                text-align:left;                                
+                                }                                  
+                              
+                              .active {
+                                background-color: #378b49;
+                              }
+                              
+                              /* Fading animation */
+                              .fade {
+                                animation-name: fade;
+                                animation-duration: 1s;
+                              }
+                              
+                              @keyframes fade {
+                                from {opacity:0.5} 
+                                to {opacity:1}
+                              }
+
+        /*-----------------------------------------------*/  
+
+
+        /*Select Demo videa grid container*/                              
+        .text-block_demo_text {
+          position: relative;
+          top: -18vw;
+          left: 30vw;
+                            }
+
+        /*-----------------------------------------------*/ 
+          /*Select Demo videa grid container*/
+          .text-block_demo_text {
+            position: absolute;
+            top: 30vw;
+            left: 26vw;
+                                }
+        
+          .text-block_demo_number {
+            position: absolute;
+            width: 80mm;
+            height: auto;
+            top: 35vw;
+            left: 26vw;
+                                }
+
+              .text-block_demo_number {
+                  position: relative;
+                  width: 80mm;
+                  height: auto;
+                  top: -22vw;
+                  left: 30vw;
+                                    }
+              
+                      .item1 {grid-area: 01;} 
+                      .item2 {grid-area: 02;} 
+                      .item3 {grid-area: 03;} 
+                      .item4 {grid-area: 04;} 
+                      .item5 {grid-area: 05;} 
+                      .item6 {grid-area: 06;} 
+                      .item7 {grid-area: 07;} 
+                      .item8 {grid-area: 08;} 
+                      .item9 {grid-area: 09;} 
+                      .item10 {grid-area: 10;}  
+              
+                      .grid-container {
+                        
+                          display: grid;
+                          grid-template-areas: '01 02 03 04 05'
+                                               '06 07 08 09 10' ;
+                          gap: 2px;
+                          margin: 1px;
+                          padding: 1px;
+                          height: 9mm;
+                                     }
+              
+                      .grid-container > div {                
+                          text-align: center;               
+                          font-size: 4mm;                
+                                           }       
+                    
+  }
+ 
+/*-----------------------------------------------*/ 
+
+/*playlist*/
+  /*dropdown*/
+  .text-block_901-1000 {  
+    width: auto;
+    height: auto;
+    text-align: center;  
+    font-size: 4mm;
+  }
+  
+  .text-block_801-900 { 
+    width: auto;
+    height: auto;
+    text-align: center;  
+    font-size: 4mm;
+  }
+  
+  .text-block_701-800 {  
+    width: auto;
+    height: auto;
+    text-align: center;  
+    font-size: 4mm;
+  }
+  
+  .text-block_601-700 { 
+    width: auto;
+    height: auto;
+    text-align: center; 
+    font-size: 4mm;
+  }
+  
+  .text-block_501-600 {  
+    width: auto;
+    height: auto;
+    text-align: center; 
+    font-size: 4mm;
+  }
+  
+  .text-block_401-500 {  
+    width: auto;
+    height: auto;
+    text-align: center;  
+    font-size: 4mm;
+  }
+  
+  .text-block_301-400 { 
+    width: auto;
+    height: auto;
+    text-align: center;  
+    font-size: 4mm;
+  }
+  
+  .text-block_201-300 {  
+    width: auto;
+    height: auto;
+    text-align: center;  
+    font-size: 4mm;
+  }
+  
+  .text-block_001-100 {  
+    width: auto;
+    height: auto;
+    text-align: center; 
+    font-size: 4mm;
+  }
+
+/*grid container*/
+.grid-container {
+  display: grid;
+  row-gap: 50px;
+  grid-template-columns: auto auto auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: rgba(21, 224, 21, 0.8);
+  border: 1px solid rgba(122, 26, 212, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+  
+  /*dropdown-----------------------------------------------*/
+  .dropbtn {
+    background-color:antiquewhite;
+    color: blue;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    padding: 5mm;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: yellow;
+    min-width: auto;
+    font-size: 4mm;
+    padding-left: 2.5mm;
+    padding-right: 2.5mm;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {  
+    display: block;
+  }
+  /*hover*/
+  .dropdown-content a:hover {background-color: yellowgreen;}  
+  .dropdown:hover .dropdown-content {display: block;}  
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+  
+  /*dropup-------------------------------------------------*/
+    .dropbtn_02 {
+		background-color:antiquewhite;
+    	color: blue;
+    	padding: 16px;
+    	font-size: 16px;
+    	border: none;
+        }
+        
+        .dropup {
+			position: relative;
+    		display: inline-block;
+    		padding: 5mm;
+        }
+        
+        .dropup-content {
+          display: none;
+          position: absolute;
+          background-color: yellow;
+		  min-width: auto;
+		  font-size: 4mm;
+          padding-left: 2.5mm;
+    	  padding-right: 2.5mm;
+          bottom: 106px;
+          z-index: 1;
+        }
+        
+        .dropup-content a {          
+          display: block;
+        }
+        
+        .dropup-content a:hover {background-color: yellowgreen}        
+        .dropup:hover .dropup-content {display: block;}        
+        .dropup:hover .dropbtn_02 {background-color: #3e8e41;}
+  
+

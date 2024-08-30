@@ -1,0 +1,128 @@
+
+  /*laptop*/
+  @media screen and (max-width: 1400px) {
+    div.re-size {
+      background-color: rgb(202, 202, 26);
+      margin: 1px;
+      padding: 4px;
+      font-size: 10mm;
+    }
+
+    .text-block_banner_01 {
+      position: absolute;
+      font-family:Impact,;
+      top: 5vw;
+      left: 5vw;
+      color: rgb(0, 255, 229);
+      font-size: 6mm;
+    }
+  
+      .text-block_banner_02 {
+        position: absolute;
+        font-family:Impact,;
+        top: 7vw;
+        left: 6vw;
+        color: rgb(0, 255, 229);
+        font-size: 7mm;
+      }    
+  
+        .text-block_banner_03_en {
+          position: absolute;
+          font-family:Impact,;
+          top: 9.2vw;
+          left: 7vw;
+          color: rgb(0, 255, 229);
+          font-size: 8mm;
+        }  
+     
+          .text-block_select_language {
+            position:absolute;
+            top:30vw;
+            right: 10vw;                    
+            font-size: 7mm;  
+          }   
+
+            .text-block_english_button {
+              position:absolute;
+              top:32vw;
+              right: 20vw;                    
+              font-size: 7mm;  
+            }
+
+              .text-block_chinese_button {
+                position:absolute;
+                top:35vw;
+                right: 20vw;                    
+                font-size: 7mm;  
+              } 
+                    
+                .text-block_goto_playlist {
+                  position:absolute;
+                  top:39vw;
+                  right: 10vw;
+                  font-size: 7mm;  
+                }                          
+                            
+                            /* Slideshow container */
+                            .slideshow-container-Text {
+                              position:absolute;                              
+                              }
+                            
+                            /* Caption text */
+                            .text {                              
+                              font-size: 8mm;                      
+                              position:absolute;
+                              top: 25vw;
+                                left: 3vw;
+                              width: auto;
+                              text-align:left;
+                              padding: 10mm;
+                              }
+                            
+                            .active {
+                              background-color: #378b49;
+                            }
+                            
+                            /* Fading animation */
+                            .fade {
+                              animation-name: fade;
+                              animation-duration: 2s;
+                            }
+                            
+                            @keyframes fade {
+                              from {opacity:0.5} 
+                              to {opacity:1}
+                            }
+
+  /*Select Demo videa grid container*/
+  .text-block_demo_text {
+    position: absolute;
+    top: 30vw;
+    left: 26vw;
+            }
+
+  .text-block_demo_number {
+    position: absolute;
+    width: 80mm;
+    height: auto;
+    top: 35vw;
+    left: 26vw;
+            }
+
+        .item1 {grid-area: 01;}          
+
+        .grid-container {
+            display: grid;
+            grid-template-areas: '01 01 01 01 01 01 01 01 01';
+            gap: 2px;
+            margin: 1px;
+            padding: 1px;
+            height: 9mm;
+        }
+
+        .grid-container > div {                
+            text-align: center;               
+            font-size: 4mm;                
+        } 
+                            
+}

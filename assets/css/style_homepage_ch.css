@@ -1,0 +1,107 @@
+.text-block_banner_01 {
+    position: absolute;
+    font-family:Impact,;
+    top: 60px;
+    left: 70px;
+    color: rgb(0, 255, 229);
+    }
+
+    .text-block_banner_02 {
+        position: absolute;
+        font-family:Impact,;
+        top: 100px;
+        left: 35px;
+        color: rgb(0, 255, 229);
+        }         
+        
+        .text-block_banner_03_ch {
+            position: absolute;
+            font-family:Impact,;
+            top: 140px;
+            left: 50px;
+            color: rgb(0, 255, 229);
+            }
+ 
+
+            .text-block_select_language_ch {
+                position:absolute;
+                top:500px;
+                right: 50px;
+                color: rgb(0, 255, 229);
+                text-align: left;	
+                width: auto;
+                height: auto;    
+                }      
+                
+                .text-block_first_demo_ch {
+                    position:relative;
+                    top:0mm;
+                    right: 0mm;
+                    color: rgb(0, 255, 229);
+                    text-align: left;	
+                    width: auto;
+                    height: auto;    
+                    }
+                    
+                    .text-block_second_demo {
+                        position:relative;
+                        top:200mm;
+                        right: 0mm;
+                        color: rgb(0, 255, 229);
+                        text-align: left;	
+                        width: auto;
+                        height: auto;    
+                        }   
+
+                        .text-block_third_demo {
+                            position:relative;
+                            top:400mm;
+                            right: 0mm;
+                            text-align: left;	
+                            width: auto;
+                            height: auto;    
+                            } 
+                      
+                        
+                        /* Slideshow container */
+                        .slideshow-container_ch {                         
+                          position: absolute;                       
+                           }
+                        
+                        /* Caption text */
+                        .text {                          
+                          font-size: 9mm;
+                          padding: 0px 0px;
+                          position:absolute;
+                          top: 85mm;
+                          left: 10mm;
+                          width: auto;
+                          text-align: left;
+                          padding: 10mm;
+                        }
+                        
+                        /* Number text (1/3 etc) */
+                      
+                        
+                        /* The dots/bullets/indicators */
+                        
+                        
+                        .active {
+                          background-color: #378b49;
+                        }
+                        
+                        /* Fading animation */
+                        .fade {
+                          animation-name: fade;
+                          animation-duration: 2s;
+                        }
+                        
+                        @keyframes fade {
+                          from {opacity:0.5} 
+                          to {opacity:1}
+                        }
+                        
+                        /* On smaller screens, decrease text size */
+                        @media only screen and (max-width: 300px) {
+                          .text {font-size: 11px}
+                        }   

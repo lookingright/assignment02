@@ -1,0 +1,115 @@
+
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+		<link rel="stylesheet" href="assets/css/style_index_page.css">	
+		<link rel="stylesheet" href="assets/css/style_media_rule_big_screen.css">	
+		<link rel="stylesheet" href="assets/css/style_media_rule_monitor.css">	
+		<link rel="stylesheet" href="assets/css/style_media_rule_laptop.css">
+		<link rel="stylesheet" href="assets/css/style_media_rule_pad.css">
+		<link rel="stylesheet" href="assets/css/style_media_rule_phone_H.css">
+		<link rel="stylesheet" href="assets/css/style_media_rule_phone_V.css">
+	</head>
+
+	<body>		
+		<!-- backgrond video -->		
+		<div class="text-block_first_demo">
+			<div class="re-size">
+				<iframe width="100%" height="100%" src="https://www.youtube.com/embed/-d75fM0a_88?si=PQqZnRD9Po1zMFc_"></iframe>
+			</div>  
+
+									
+										
+								
+            
+
+			<div class="text-block_text_carousel">			
+				<!--This is text carousel-->				
+				<div class="slideshow-container">									
+					<!--<div class="numbertext">1 / 3</div>-->
+					<div class="mySlides fade">		  	
+						<img src="./img\Cat_image_01.jpeg" style="width:0%">
+							<div class="text" style="color: rgb(0, 255, 136);">New age <br> new style <br> improvisional piano</div>
+					</div>
+
+					<div class="mySlides fade">
+						<img src="./img\Cat_image_02.jpeg" style="width:0%">
+							<div class="text" style="color: rgb(0, 255, 229);">Mild-free <br> piano playing</div>
+					</div>
+					
+					<div class="mySlides fade">
+						<img src="./img\Cat_image_03.jpeg" style="width:0%">
+							<div class="text" style="color: rgb(0, 255, 136);">Let the fingers <br> run free</div>
+					</div>
+
+					<div class="mySlides fade">
+						<img src="./img\Cat_image_03.jpeg" style="width:0%">
+							<div class="text" style="color: rgb(0, 255, 229);">Don't think <br> just play</div>
+					</div>
+					
+					<div class="mySlides fade">
+						<img src="./img\Cat_image_03.jpeg" style="width:0%">
+							<div class="text" style="color: rgb(0, 255, 136);">No scores <br> no rules <br> no regulations</div>
+					</div>
+
+					<div class="mySlides fade">
+						<img src="./img\Cat_image_03.jpeg" style="width:0%">
+							<div class="text" style="color: rgb(0, 255, 229);">Most fun, relex, <br> joyful way to play</div>
+					</div> 
+
+					<div class="mySlides fade">
+						<img src="./img\Cat_image_03.jpeg" style="width:0%">
+							<div class="text" style="color: rgb(0, 255, 136);">My target is <br> accomplish <br> 1000-improvisional <br> recording</div>
+					</div>	
+
+					<div class="mySlides fade">
+						<img src="./img\Cat_image_03.jpeg" style="width:0%">
+							<div class="text" style="color: rgb(0, 255, 229);">Relex <br> have a coffee <br> enjoy the day</div>
+					</div>	
+				</div>	
+									
+					<div style="text-align:center">
+						<span class="dot"></span> 
+						<span class="dot"></span> 
+						<span class="dot"></span> 
+						<span class="dot"></span>
+						<span class="dot"></span>
+						<span class="dot"></span>
+						<span class="dot"></span>
+						<span class="dot"></span>
+					</div>
+					
+						<script>
+							let slideIndex = 0;
+							showSlides();
+							
+							function showSlides() 
+							{
+							let i;
+							let slides = document.getElementsByClassName("mySlides");
+							let dots = document.getElementsByClassName("dot");
+							for (i = 0; i < slides.length; i++) 
+								{
+								slides[i].style.display = "none";  
+								}
+									slideIndex++;
+									if (slideIndex > slides.length) {slideIndex = 1}    
+									for (i = 0; i < dots.length; i++) 
+										{
+										dots[i].className = dots[i].className.replace(" active", "");
+										}
+											slides[slideIndex-1].style.display = "block";  
+											dots[slideIndex-1].className += "active";
+											setTimeout(showSlides, 6500); // Change image every 6.5 seconds			
+							}
+						</script>	
+			</div>
+		
+			
+					
+	</body>
+</html>
